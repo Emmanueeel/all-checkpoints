@@ -1,0 +1,34 @@
+﻿# === Clojure ===
+**/.clj-kondo/.cache/
+**/.lsp/.cache/
+**/.cpcache/
+**/target/
+*.jar
+*.class
+.lein-repl-history
+.nrepl-port
+
+# === TypeScript / Node ===
+**/node_modules/
+**/dist/
+**/build/
+*.tsbuildinfo
+
+# === Databases ===
+*.db
+*.sqlite
+*.sqlite3
+
+# === IDE ===
+.idea/
+.vscode/
+*.swp
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Logs and secrets ===
+*.log
+.env
